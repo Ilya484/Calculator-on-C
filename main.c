@@ -3,11 +3,11 @@
 int main() {
     setlocale(LC_ALL, "rus");
 
-   char action;
-    printf("Введите операцию:");
+    char action;
+    printf("Р’РІРµРґРёС‚Рµ РѕРїРµСЂР°С†РёСЋ:");
     scanf("%c", &action);
     float a, b;
-    printf("Введите числа:");
+    printf("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Р°:");
     scanf("%f %f", &a, &b);
 
     if (action == '+') {
@@ -19,7 +19,7 @@ int main() {
     } else if (action == '/') {
         printf("%f/%f=%f", a, b, a / b);
     } else {
-        printf("Я не знаю %c!", action);
+        printf("РЇ РЅРµ Р·РЅР°СЋ %c!", action);
     }
     return 0;
 }
